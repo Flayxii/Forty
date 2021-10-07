@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+header{
+    background-position: center;
+    background-image: url(./assets/img/Mesquite_Sand_Dunes_in_Death_Valley.jpg);
+    width: 100%;
+}
+#nav1{
+    font-weight: 500;
+    padding: .5em 0;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+#navforty{
+    display: flex;
+}
+#navforty button{
+    padding: 0 .5em;
+    margin-left: .5em;
+}
+#nav1 p{
+    color: gray;
+    align-self: center;
+    padding: 0 1em;
+}
+#nav1 ul{
+    display: flex;
+    list-style: none;
+    border: solid black 1px;
+    border-radius: 4px;
+    padding: 0 0;
+}
+#nav1 ul li{
+    padding: 0 1em;
+    line-height: 2em;
+}
+#nav1 a{
+    color: gray;
+}
+#nav1 li:hover{
+    background-color: #bebebe;
+}
+a{
+    text-decoration: none;
+}
+#nav1but button{
+    margin-right: .5em;
+    padding: .5em 1em;
+}
+#hero{
+    width: 100%;
+    height: max-content;
+    background-color: #29296bda;
+    color: white;
+}
+#nav2{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    letter-spacing: 0.15em;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 1em;
+}
+#nav2 a{
+    padding: .5em;
+    color: white;
+}
+#nav2 p{
+    padding: .5em;
+    background-color: white;
+    color: black;
+}
+#nav2 span{
+    background-color: none;
+    padding: .5em;
+}
+#nav2 div{
+    display: flex;
+    align-items: center;
+}
+#hero_main{
+    width: 100%;
+    margin-top: 10em;
+    margin-left: 5em;
+    padding-bottom: 10em;
+}
+#hero h1{
+    font-family: Helvetica, sans-serif;;
+    font-size: 52px;
+    width: 80%;
+    line-height: 2em;
+}
+#hero hr{
+    width: 80%;
+    margin-bottom: 2em;
+}
+#div_hero{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+#hero p{
+    max-width: 500px;
+    font-size: 12px;
+    letter-spacing: 0.20em;
+}
+#hero button{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 1em 1.5em;
+    border: solid white 2px;
+}
+#hero a{
+    color: white;
+    letter-spacing: 0.20em;
+}
