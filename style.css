@@ -74,6 +74,7 @@ a{
     color: white;
 }
 #nav2 p{
+    font-weight: 600;
     padding: .5em;
     background-color: white;
     color: black;
@@ -87,10 +88,11 @@ a{
     align-items: center;
 }
 #hero_main{
-    width: 100%;
-    margin-top: 10em;
+
+    margin-top: 15em;
     margin-left: 5em;
-    padding-bottom: 10em;
+    padding-bottom: 15em;
+
 }
 #hero h1{
     font-family: Helvetica, sans-serif;;
@@ -99,11 +101,10 @@ a{
     line-height: 2em;
 }
 #hero hr{
-    width: 80%;
+    width: 90%;
     margin-bottom: 2em;
 }
 #div_hero{
-    width: 80%;
     display: flex;
     align-items: center;
 }
@@ -112,12 +113,10 @@ a{
     font-size: 12px;
     letter-spacing: 0.20em;
 }
-#hero button{
-    background-color: rgba(255, 255, 255, 0);
-    padding: 1em 1.5em;
+#hero_main a{
+    font-family: Helvetica, sans-serif;;
+    padding: .9em 1.5em;
     border: solid white 2px;
-}
-#hero a{
     color: white;
     letter-spacing: 0.20em;
 }
