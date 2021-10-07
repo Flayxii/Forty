@@ -120,3 +120,8 @@ a{
     color: white;
     letter-spacing: 0.20em;
 }
+#hero_main a:hover{
+    transition-duration: 0.8s;
+    color: cyan;
+    border-color: cyan;
+}
