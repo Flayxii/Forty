@@ -297,6 +297,11 @@ textarea{
     text-decoration: none;
     text-transform: uppercase;
 }
+#clean:hover{
+    transition-duration: 0.8s;
+    color: cyan;
+    box-shadow: inset 0 0 0 2px cyan;
+}
 #info{
     display: grid;
     grid-template-rows: 30% 30% 40%;
