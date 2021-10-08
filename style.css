@@ -250,7 +250,7 @@ a{
 }
 #top input{
     background-color: #29296bda;
-    width: 20vw;
+    width: 80%;
     height: 3em;
     color: white;
     margin-right: 3em;
@@ -320,4 +320,123 @@ textarea{
 footer{
     background-color: #26264d;
     height: 70px;
+}
+@media screen and (max-width: 1400px)  {
+    textarea{
+        max-width: 80%;
+    }
+    #hero_main p{
+        max-width: 300px;
+    }
+    #square{
+        display: none;
+    }
+    #tweet{
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    #navforty nav{
+        display: none;
+    }
+    #hero_main h1{
+        font-size: 30px;
+    }
+    #hero_main p{
+        margin-right: 1em;
+        max-width: 200px;
+        font-size: 10px;
+    }
+    .uno{
+        grid-template-columns: 50% 50%;
+    
+    }
+    .uno div{
+        padding: 6em 0 6em 2em;
+    }
+    #Dos{
+        grid-template-columns: 50% 50%;
+    }
+    #Dos div{
+        padding: 6em 0 6em 2em;
+    }
+    #formulaire {
+        padding-left: 3em;
+    }
+    #top{
+        flex-direction: column;
+    }
+    #info div{
+        padding-left: 3em;
+    }
+    #cinquo{
+        display: block;
+    }
+}
+@media screen and (max-width:532px) {
+    #div_hero{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #div_hero p{
+        margin-bottom: 2em;
+    }
+    #hero h1{
+        width: 100%;
+        font-size: 22px;
+    }
+    #hero
+    #hero_main{
+        margin: 7em 0 0 3em;
+        padding: 0 0 7em 0;
+    }
+    #hero hr{
+        width: 70%;
+    }
+
+    .uno p{
+        letter-spacing: normal;
+    }
+    .uno hr{
+        width: 80%;
+    }
+    #Dos hr{
+        width: 80%;
+    }
+    #Dos p{
+        letter-spacing: normal; 
+    }
+    #middle{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr ;
+    }
+    #navforty{
+        display: none;
+    }
+    #nav1but{
+        padding-left: 1em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+@media screen and (max-width:440px) {
+    .uno{
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+    #Dos{
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+    #formulaire ul{
+        flex-direction: column;
+    }
+    #clean{
+        margin-left: 0;
+    }
+    #Send{
+        margin-bottom: 1em;
+    }
 }
