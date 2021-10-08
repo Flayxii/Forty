@@ -228,3 +228,68 @@ a{
     color: cyan;
     border-color: cyan;
 }
+#cinquo{
+    
+    border-bottom: white 1px solid;
+    color: white;
+    background-color: #26264d;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+#formulaire{
+    border-right: white 1px solid;
+    padding-left: 6em;
+    padding-top: 4em;
+
+}
+#top{
+    display: flex;
+}
+#top input{
+    background-color: #29296bda;
+    width: 20vw;
+    height: 3em;
+    color: white;
+    margin-right: 3em;
+}
+#formulaire p{
+    line-height: 2em;
+}
+textarea{
+    background-color: #29296bda;
+}
+#formulaire ul{
+    display: flex;
+    list-style: none;
+}
+#Send{
+    margin: 2em 0 4em 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 0.8em;
+    font-weight: 600;
+    height: 3.5em;
+    letter-spacing: 0.25em;
+    line-height: 3.5em;
+    padding: 0 1.75em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#clean{
+    margin: 2em 0 4em 0;
+    margin-left: 2em;
+    box-shadow: inset 0 0 0 2px #ffffff;
+    border: white;
+    color: white;
+    background-color: #26264d;
+    font-size: 0.8em;
+    font-weight: 600;
+    height: 3.5em;
+    letter-spacing: 0.25em;
+    line-height: 3.5em;
+    padding: 0 1.75em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
