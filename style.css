@@ -95,7 +95,7 @@ a{
 
 }
 #hero h1{
-    font-family: Helvetica, sans-serif;;
+    font-family: Helvetica, sans-serif;
     font-size: 52px;
     width: 80%;
     line-height: 2em;
@@ -121,6 +121,109 @@ a{
     letter-spacing: 0.20em;
 }
 #hero_main a:hover{
+    transition-duration: 0.8s;
+    color: cyan;
+    border-color: cyan;
+}
+.uno div{
+    
+    padding: 10em 0;
+    padding-left: 4em;
+}
+.uno h2{
+    font-size: 30px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    line-height: 2em;
+}
+.uno hr{
+    color: white;
+    width: 200px;
+    margin: 1em 0;
+}
+.uno p{
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.20em;
+}
+#div_uno{
+    background-color: #0b96c0;
+}
+#div_dos{
+    background-color: #531797;
+}
+.uno{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+#Dos div{
+    
+    padding: 10em 0;
+    padding-left: 4em;
+}
+#Dos h2{
+    font-size: 30px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    line-height: 2em;
+}
+#Dos hr{
+    color: white;
+    width: 200px;
+    margin: 1em 0;
+}
+#Dos p{
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.20em;
+}
+#div_tres{
+    background-color: tomato;
+}
+#div_quatro{
+    background-color: rgb(163, 64, 18);
+}
+#Dos{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+#div_cinquo{
+    background-color: #1a4bb4;
+}
+#div_seis{
+    background-color: #086308;
+}
+#quatro{
+    color: white;
+    background-color: #29296bda;
+}
+#same{
+    padding: 5em 0;
+    padding-left: 4em;
+}
+#same hr{
+    color: white;
+    width: 200px;
+    margin: 1em 0;
+}
+#same p{
+    line-height: 1.8em;
+    max-width: 80%;
+    padding-bottom: 4em;
+}
+#same h3{
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 2em;
+}
+#same a{
+    font-family: Helvetica, sans-serif;;
+    padding: .9em 1.5em;
+    border: solid white 2px;
+    color: white;
+    letter-spacing: 0.20em;
+}
+#same a:hover{
     transition-duration: 0.8s;
     color: cyan;
     border-color: cyan;
