@@ -55,6 +55,14 @@ header{
 a{
     text-decoration: none;
 }
+#dl{
+    background-color: tomato;
+    border-radius: 4px;
+
+}
+#dl a{
+    color: white;
+}
 #nav1but button{
     margin-right: .5em;
     padding: .5em 1em;
