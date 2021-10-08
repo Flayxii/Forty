@@ -217,7 +217,7 @@ a{
     line-height: 2em;
 }
 #same a{
-    font-family: Helvetica, sans-serif;;
+    font-family: Helvetica, sans-serif;
     padding: .9em 1.5em;
     border: solid white 2px;
     color: white;
@@ -256,6 +256,7 @@ a{
     line-height: 2em;
 }
 textarea{
+    color: white;
     background-color: #29296bda;
 }
 #formulaire ul{
@@ -292,4 +293,23 @@ textarea{
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+}
+#info{
+    display: grid;
+    grid-template-rows: 30% 30% 40%;
+}
+#info div{
+    padding: 4em 0 0 7em;
+    border-bottom: white 1px solid;
+}
+#info p{
+    padding: 2em 0 4em 0;
+}
+#info h4{
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+}
+footer{
+    background-color: #26264d;
+    height: 70px;
 }
