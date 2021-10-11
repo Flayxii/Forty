@@ -483,3 +483,112 @@ footer{
     letter-spacing: 0.1em;
     max-width: 80%;
 }
+#navland{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    letter-spacing: 0.15em;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 1em;
+}
+#navland a{
+    padding: .5em;
+    color: white;
+}
+#navland p{
+    font-weight: 600;
+    padding: .5em;
+    background-color: white;
+    color: black;
+}
+#navland span{
+    background-color: none;
+    padding: .5em;
+    font-size: 12px;
+}
+#navland div{
+    display: flex;
+    align-items: center;
+}
+#txt1{
+    background-color: #26264d;
+    color: white;
+}
+#txt1 h2{
+    font-size: 25px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    padding: 2em 0 1em 2rem;
+}
+#txt1 hr{
+    width: 80%;
+    margin-left: 2em;
+}
+#txt1 p{
+    font-size: 14px;
+    max-width: 80%;
+    padding: 1em 0 2em 2rem;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    line-height: 1.6em;
+}
+.wallp{
+    background-image: url(./assets/img/anime3.jpg);
+    width: 100vw;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+}
+.main_img{
+    color: white;
+    background-color: #26264d;
+}
+.main_img h3{
+    font-size: 20px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    padding: 2rem 0 1rem 2rem;
+}
+.main_img hr{
+    max-width: 80%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.main_img p{
+    font-size: 14px;
+    max-width: 80%;
+    padding: 1em 0 1em 2rem;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    line-height: 1.6em;
+}
+.liens{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    margin-left: 2rem;
+    box-shadow: inset 0 0 0 2px #ffffff;
+    border: white;
+    color: white;
+    background-color: #26264d;
+    font-size: 14px;
+    letter-spacing: 0.25em;
+    line-height: 8.5em;
+    padding: 1em 1em;
+    text-align: center;
+    text-decoration: none;
+}
+.liens:hover{
+    transition-duration: 0.8s;
+    color: cyan;
+    box-shadow: inset 0 0 0 2px cyan;
+}
+.wallp2{
+    background-image: url(./assets/img/Anime2.jpg);
+    width: 100vw;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+}
+.wallp1{
+    background-image: url(./assets/img/anime1.jpg);
+    width: 100vw;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+}
