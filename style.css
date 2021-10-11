@@ -448,3 +448,38 @@ footer{
         margin-bottom: 1em;
     }
 }
+/* Landing */
+
+.landing header{
+    background-position: center;
+    background-image: url(./assets/img/un-embouteillage-a-new-york-en-decembre-2005-la-situation-a-encore-beaucoup-empire-depuis_6006250.jpg);
+    width: 100%;
+}
+#hero2{
+    background-color: rgba(89, 53, 156, 0.753);
+    color: white;
+    width: 100%;
+}
+#hero_main2{
+
+    margin-top: 3em;
+    margin-left: 2em;
+    padding-bottom: 3em;
+
+}
+#hero2 h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    width: 80%;
+    line-height: 2em;
+}
+#hero2 hr{
+    width: 90%;
+    margin-bottom: 2em;
+}
+#hero2 p{
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    max-width: 80%;
+}
