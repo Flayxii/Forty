@@ -257,6 +257,8 @@ a{
     display: flex;
 }
 #top input{
+    box-shadow: none;
+    border: none;
     background-color: #29296bda;
     width: 80%;
     height: 3em;
@@ -267,6 +269,7 @@ a{
     line-height: 2em;
 }
 textarea{
+    border: none;
     color: white;
     background-color: #29296bda;
 }
@@ -532,7 +535,7 @@ footer{
 }
 .wallp{
     background-image: url(./assets/img/anime3.jpg);
-    width: 100vw;
+    width: 100%;
     height: 40vh;
     background-position: center;
     background-size: cover;
@@ -552,6 +555,28 @@ footer{
     margin-bottom: 2rem;
 }
 .main_img p{
+    font-size: 14px;
+    max-width: 80%;
+    padding: 1em 0 1em 2rem;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    line-height: 1.6em;
+}
+.main_img2{
+    color: white;
+    background-color: #26264d;
+}
+.main_img2 h3{
+    font-size: 20px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    padding: 2rem 0 1rem 2rem;
+}
+.main_img2 hr{
+    max-width: 80%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.main_img2 p{
     font-size: 14px;
     max-width: 80%;
     padding: 1em 0 1em 2rem;
@@ -580,15 +605,112 @@ footer{
 }
 .wallp2{
     background-image: url(./assets/img/Anime2.jpg);
-    width: 100vw;
+    width: 100%;
     height: 40vh;
     background-position: center;
     background-size: cover;
 }
 .wallp1{
     background-image: url(./assets/img/anime1.jpg);
-    width: 100vw;
+    width: 100%;
     height: 40vh;
     background-position: center;
     background-size: cover;
+}
+@media screen and (min-width:567px) {
+
+    .wallp{
+        height: 50vh;
+    }
+    .wallp1{
+        height: 50vh;
+    }
+    .wallp2{
+        height: 50vh;
+    }
+}
+@media screen and (min-width:767px){
+    #hero_main2{
+        padding: 6em 0  ;
+    }
+    #hero_main2 p{
+        padding-bottom: 6em;
+    }
+    .wallp{
+        height: 60vh;
+    }
+    .wallp1{
+        height: 60vh;
+    }
+    .wallp2{
+        height: 60vh;
+    }
+}
+@media screen and (min-width:980px) {
+    .main_img{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .main_img2{
+        background-color: #292953;
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+    .wallp{
+        height: 45vh;
+    }
+    .wallp1{
+        height: 45vh;
+    }
+    #droite{
+        order: -1;
+    }
+    .wallp2{
+        height: 45vh;
+    }
+}
+@media screen and (min-width:1200px){
+    .wallp{
+        height: 60vh;
+    }
+    .wallp1{
+        height: 60vh;
+    }
+    .wallp2{
+        height: 60vh;
+    }
+    #droite{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .liens{
+        line-height: 2.2em;
+        max-width: 20%;
+    }
+    .gauche{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #txt1 p{
+        max-width: 45%;
+        padding-bottom:10em;
+    }
+    #txt1 hr{
+        max-width: 45%;
+    }
+    #txt1 h2{
+        padding-top: 6em;
+    }
+    #txt1{
+        background-color: #292953;
+    }
+    #hero2 h1{
+        font-size: 52px;
+    }
+    #hero2 hr{
+        max-width: 50%;
+    }
+
 }
