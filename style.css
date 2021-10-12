@@ -246,6 +246,7 @@ a{
     background-color: #26264d;
     display: grid;
     grid-template-columns: 60% 40%;
+    gap: 1px white;
 }
 #formulaire{
     border-right: white 1px solid;
@@ -713,4 +714,43 @@ footer{
         max-width: 50%;
     }
 
+}
+#generic{
+    background-color: #26264d;
+    background-image: none;
+    color: white;
+}
+#s_generic{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+#s_generic img{
+    width: 100%;
+    padding: 3rem 0 ;
+}
+#s_generic h1{
+    font-size: 32px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    padding: 4rem 0 2rem 0;
+}
+#s_generic hr{
+    max-width: 130px;
+}
+#s_generic p{
+    padding-bottom: 2.5em;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.025em;
+}
+#generic #cinquo{
+    border-top: white .025rem solid;
+}
+#generic #nav2{
+    background-color: #34256d;
+    position: sticky;
+    top: 3em;
+    padding-bottom: 0;
+    padding-top: 0;
+    align-items: center;
 }
