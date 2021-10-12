@@ -331,7 +331,7 @@ textarea{
 }
 footer{
     background-color: #26264d;
-    height: 70px;
+
 }
 @media screen and (max-width: 1400px)  {
     textarea{
@@ -646,6 +646,9 @@ footer{
     .wallp2{
         height: 60vh;
     }
+    #s_generic h1{
+        font-size: 38px;
+    }
 }
 @media screen and (min-width:980px) {
     .main_img{
@@ -713,6 +716,12 @@ footer{
     #hero2 hr{
         max-width: 50%;
     }
+    #s_generic h1{
+        font-size: 44px;
+    }
+    #s_generic p{
+        font-size: 18px;
+    }
 
 }
 #generic{
@@ -753,4 +762,34 @@ footer{
     padding-bottom: 0;
     padding-top: 0;
     align-items: center;
+}
+#icons{
+    color: white;
+    padding: 2em 2em;
+}
+#icons a{
+    margin-right: .8em;
+    color: white;
+    text-decoration: none;
+}
+#icons a:hover{
+    color: cyan;
+}
+#footp{
+    padding: 0 0 1em 1em;
+    color: gray;
+    display: flex;
+}
+#footp p{
+    padding: 0 1em;
+}
+#footp hr{
+    border-color: gray;
+}
+#footp a{
+    color: gray;
+    text-decoration: none;
+}
+#footp a:hover{
+    color: cyan;
 }
